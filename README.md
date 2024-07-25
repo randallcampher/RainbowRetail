@@ -18,7 +18,7 @@ This project evaluates Rainbow Retail's sales performance from 2018 to 2022, hig
 - **Data Analysis Enhancement:** Improve product categorisation, analyse customer behavior and refine data collection.
 
 ### Technical Approach
-Utilised advanced Excel features and MySQL for data extraction, transformation, loading and analysis.
+Utilised SQL and advanced Excel features such as Power Query and Power Pivot for data extraction, transformation, loading and analysis.
 
 ## 1. INTRODUCTION
 Rainbow Retail is a fictitious South African e-commerce retailer of office supplies, furniture and technology products. This report aims to evaluate sales performance, identify trends and provide actionable insights.
@@ -67,13 +67,64 @@ Synthetic data includes four primary entities: Customers, Sales, Products and Ca
 
 ### f. Ad-Hoc Queries
 
-The SQL queries below are added to simulate the application of SQL to databases in order to answer some common business questions by stakeholders. 
+The SQL snippets below answer some common business questions asked by stakeholders. 
 
-![image](https://github.com/user-attachments/assets/31fe9682-7467-4599-b7b6-ed117d78184b)
+```
+sql
+-- Query 1: Top Products by Total Sales Amount
 
-![image](https://github.com/user-attachments/assets/78e917a4-eea8-438e-b582-45677c74e1fd)
+WITH ProductSales AS (
+    SELECT p.product_name, SUM(s.sales) AS total_sales
+    FROM sales s
+    JOIN Products p ON s.product_id = p.product_id
+    GROUP BY p.product_name
+)
+SELECT product_name, total_sales,
+       RANK() OVER (ORDER BY total_sales DESC) AS sales_rank
+FROM ProductSales;
+```
+Output 1:
 
-![image](https://github.com/user-attachments/assets/e7de645b-bccd-450e-8018-9d9589759246)
+![image](https://github.com/user-attachments/assets/88ea9c33-93b3-4e65-b3b4-d5e7ff2d63b3)
+
+```
+sql
+-- Query 2: Customer Ranking by Total Purchase Amount
+
+WITH CustomerSales AS (
+    SELECT c.customer_id, CONCAT(c.first_name, ' ', c.last_name) AS customer_name, SUM(s.sales) AS total_purchase
+    FROM Sales s
+    JOIN Customers c ON s.customer_id = c.customer_id
+    GROUP BY c.customer_id, customer_name
+)
+SELECT customer_id, customer_name, total_purchase,
+       RANK() OVER (ORDER BY total_purchase DESC) AS purchase_rank
+FROM CustomerSales;
+```
+Output 2:
+
+![image](https://github.com/user-attachments/assets/d8ec3a72-f6de-46aa-bc73-f5a684bb7b0d)
+
+```
+sql
+-- Query 3: Products with Sales Above Average
+
+SELECT p.product_id, p.product_name, SUM(s.sales) AS total_sales
+FROM Sales s
+JOIN Products p ON s.product_id = p.product_id
+GROUP BY p.product_id, p.product_name
+HAVING SUM(s.sales) > (
+    SELECT AVG(total_sales) FROM (
+        SELECT SUM(s.sales) AS total_sales
+        FROM Sales s
+        JOIN Products p ON s.product_id = p.product_id
+        GROUP BY p.product_id
+    ) subquery
+);
+```
+Output 3:
+
+![image](https://github.com/user-attachments/assets/e3627282-c6dc-41b1-8b02-edd4fa10bbd3)
 
 ## 4. RECOMMENDATIONS
 
