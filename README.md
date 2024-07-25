@@ -104,17 +104,15 @@ The SQL queries below are added to simulate the application of SQL to databases 
   - Identify peak and off-peak seasons.
   - Develop tailored marketing and inventory strategies for different seasons.
 - Implement dynamic pricing strategies:
-  - Adjust prices based on seasonal demand to maximize revenue during peak periods and maintain sales during slower periods.
+  - Adjust prices based on seasonal demand to maximise revenue during peak periods and maintain sales during slower periods.
 
 ### Data Analysis and Reporting Enhancement (For Business Intelligence and IT Departments)
 - Improve product categorisation:
-  - Develop a more comprehensive categorization system to reduce the 'unclassified' portion.
+  - Develop a more comprehensive categorisation system to reduce the 'unclassified' portion.
   - Regularly review and update product categories to ensure accuracy.
 - Conduct deeper analysis on customer purchasing behaviour:
   - Investigate factors influencing the Average Order Value.
   - Segment customers based on purchasing patterns and develop targeted strategies for each segment.
-
-
 
 ## 5. ASSUMPTIONS
 Data completeness issues, particularly with unclassified categories, may affect insights.
@@ -124,7 +122,10 @@ Data completeness issues, particularly with unclassified categories, may affect 
 - **MySQL:** For sophisticated data querying and insight extraction.
 
 ## 7. CONCLUSION
-Implementing these recommendations will enhance Rainbow Retail's sales performance, optimize product offerings, and strengthen market presence for sustainable growth in the South African e-commerce market.
+Implementing these recommendations will enhance Rainbow Retail's sales performance, optimise product offerings and strengthen market presence for sustainable growth in the South African e-commerce market.
+
+[![image](https://github.com/user-attachments/assets/0802c449-cd43-4680-96f5-809db47004bb)
+](www.linkedin.com/in/randall-campher)
 
 
 
