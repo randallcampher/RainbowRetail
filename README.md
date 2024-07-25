@@ -124,7 +124,7 @@ Data completeness issues, particularly with unclassified categories, may affect 
 ## 7. CONCLUSION
 Implementing these recommendations will enhance Rainbow Retail's sales performance, optimise product offerings and strengthen market presence for sustainable growth in the South African e-commerce market.
 
-[Linkedin](www.linkedin.com/in/randall-campher)
+[Connect with me on LinkedIn](www.linkedin.com/in/randall-campher)
 
 
 
