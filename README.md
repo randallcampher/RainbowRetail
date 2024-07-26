@@ -259,6 +259,7 @@ Data completeness issues, particularly with unclassified categories, may affect 
 Implementing these recommendations will enhance Rainbow Retail's sales performance, optimise product offerings and strengthen market presence for sustainable growth in the South African e-commerce market.
 
 Get the full report [here](https://github.com/randycampher/rainbow_retail_analysis/blob/main/Data%20Analysis%20Report.pdf)
+Access the presentation to stakeholders [here](https://github.com/randycampher/rainbow_retail_analysis/blob/main/Presentation.pdf)
 
 
 
