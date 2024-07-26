@@ -1,146 +1,22 @@
-# rainbow_retail_analysis
-Sales trend analysis for fictitious e-commerce company 
+# RAINBOW RETAIL
+# Data Analysis Report: Sales Performance 2018-2022
 
-| **EXECUTIVE SUMMARY** |
-|-----------------------|
-| This project evaluates Rainbow Retail's sales performance from 2018 to 2022, highlighting key trends and providing actionable insights for future strategies. The analysis uses synthetic data, including customers, sales, products and calendar entities. |
+| **Section**                            | **Details**                                                                                                                                                                                                                                      |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Executive Summary**                  | This report evaluates Rainbow Retail's sales performance from 2018 to 2022. The analysis, based on synthetic data, highlights key trends and offers actionable insights to optimise future business strategies. Key findings include a consistent upward trend in sales and revenue, with technology products leading the market share. Strategic recommendations are provided to enhance product portfolio, marketing strategies and regional sales efforts, aligned with broader business goals such as market expansion, product diversification and customer retention.                        |
+| **Introduction**                       | Rainbow Retail, a South African e-commerce retailer specialising in office supplies, furniture and technology products, aims to leverage data insights to refine its sales strategy and improve market position. This report outlines the current sales performance and identifies strategic opportunities for growth and optimisation.                                                                                                                                             |
+| **Data Overview**                      | <br> ![image](https://github.com/user-attachments/assets/3b9dcc14-d978-404d-b366-611e484ba282) <br>The analysis uses synthetic data representing customers, sales, products and temporal entities, allowing for comprehensive tracking of sales transactions and trends. The data spans from January 2018 to December 2022. |
+| **Analysis**                           | **Sales and Revenue Growth Trend** <br> ![image](https://github.com/user-attachments/assets/c200ebbf-69ba-4a02-8f41-0ff927f82c20)<br> *Insight*: A general upward trajectory in monthly sales and revenue indicates robust growth. <br> *Strategic Goal*: Market Expansion. Capitalise on the growth trend by exploring new market segments and expanding product lines to maintain momentum. <br><br> **Product Category Performance** <br> ![image](https://github.com/user-attachments/assets/2856899c-60e8-4cc5-9433-e10335545f52) <br> *Insight*: Technology products dominate with 49% of total revenue, while the furniture category underperforms at 3%. <br> *Strategic Goal*: Product Diversification. Expand the range of technology products and enhance the promotion of underperforming categories like furniture to reduce dependency on a few product lines. <br><br>  **Top-Selling Products** <br> ![image](https://github.com/user-attachments/assets/02da6bd8-5f02-43ed-881d-3f0f233aa47c) <br> *Insight*: A few key products, like the High-Speed Automatic Electric Letter Opener, drive significant sales. <br>*Strategic Goal*: Revenue Maximisation. Develop upselling and cross-selling strategies around these top-performing products to boost the Average Order Value (AOV) and overall revenue. <br><br>  **Sales by Province** <br> ![image](https://github.com/user-attachments/assets/1daefab2-5582-4575-909d-dbf7724c8eb0) <br> *Insight*: KwaZulu-Natal, Gauteng and Eastern Cape are leading markets, with potential growth opportunities in Limpopo and Northern Cape. <br>*Strategic Goal*: Geographical Expansion. Focus marketing efforts on underperforming regions to balance sales distribution and enhance overall market penetration. <br><br>  **Average Order Value (AOV)** <br> *Insight*: The AOV stands at R4,467, providing insights into purchasing behavior. <br>*Strategic Goal*: Customer Retention and Value Enhancement. Implement targeted marketing campaigns and "smart shopper" programmes to encourage higher spending and repeat purchases.|  
+| **Recommendations**                    | **Product Portfolio Optimisation** <br> - Expand the technology product line and consider strategic partnerships to boost the furniture category. <br> - Investigate unclassified products to identify emerging market trends and opportunities for new product categories.<br><br> **Sales and Marketing Strategy Enhancement** <br> - Intensify marketing efforts in high-performing regions and develop targeted campaigns in regions with growth potential. <br>- Use insights from AOV analysis to tailor product bundles and promotional offers. <br><br>**Data Analysis and Reporting Enhancement** <br> - Improve data categorisation to ensure accurate reporting and deeper customer behavior analysis, assisting in more informed strategic decisions. |
+| **Assumptions**                        | Data completeness issues, such as the significant portion of revenue from unclassified categories, may impact the accuracy of the analysis.                                                                                                                                                           |
+| **Technical Approach**                 | The analysis utilised advanced Excel features such as Power Query and Power Pivot and SQL for data extraction, transformation and loading. This approach facilitated comprehensive data analysis and insightful reporting.                                                                                                                                                                                     |
+| **Conclusion**                         | By implementing these strategic recommendations, Rainbow Retail can enhance its sales performance, optimise product offerings and strengthen its market presence. Aligning data insights with strategic business goals will ensure sustained growth and competitive advantage in the South African e-commerce market.                                                                                                        |
 
-| **a. Key Findings** |
-|------------------|
-| **Sales and Revenue Growth:** Consistent growth in sales and revenue with technology products driving 49% of total revenue. Office supplies contributed 33%, while furniture underperformed at 3%. |
-| **Product Performance:** Top products like the High-Speed Automatic Electric Letter Opener and Cisco Telepresence System EX90 dominate. This indicates a need for product diversification and enhanced promotion of underperforming items. |
-| **Regional Sales Analysis:** Key markets are KwaZulu-Natal, Gauteng and Eastern Cape, with growth potential in Limpopo and Northern Cape. Opportunities exist for market expansion and resource optimisation. |
-| **Average Order Value (AOV):** The AOV is R4,467, suggesting opportunities for upselling and cross-selling. |
-
-| **b. Recommendations** |
-|---------------------|
-| **Product Portfolio Optimisation:** Expand technology products, review the underperforming furniture line and explore unclassified categories for growth. |
-| **Sales and Marketing Strategies:** Focus on high-performing regions, target low-performing areas and develop strategies to increase AOV. |
-| **Seasonal Sales Optimisation:** Analyse seasonal sales trends and implement dynamic pricing strategies. |
-| **Data Analysis Enhancement:** Improve product categorisation, analyse customer behaviour and refine data collection. |
-
-| **c. Technical Approach** |
-|------------------------|
-| Utilised SQL and advanced Excel features such as Power Query and Power Pivot for data extraction, transformation, loading and analysis. |
-
-
-## 1. Introduction
-Rainbow Retail is a fictitious South African e-commerce retailer of office supplies, furniture and technology products. This report aims to evaluate sales performance, identify trends and provide actionable insights.
-
-## 2. Data Overview
-### a. Data Sources
-Synthetic data includes four primary entities: Customers, Sales, Products and Calendar, enabling comprehensive tracking and analysis.
-
-![image](https://github.com/user-attachments/assets/90a8f40d-8336-4e9e-95cb-96fa8e91d87f)
-
-*Key aspects:*
-- **Customers:** Essential details for segmentation and targeted marketing.
-- **Sales:** Central repository for transactions, linking customers to products.
-- **Products:** Categorises inventory to support performance evaluations.
-- **Calendar:** Facilitates time-based analysis.
-
-*Time Frame:* 01 January 2018 – 31 December 2022
-
-## 3. Analysis
-### a. Sales and Revenue Growth Trend
-
-![image](https://github.com/user-attachments/assets/0810efbf-d28d-46b0-b4fb-442ef51022e8)
-
-- **General Trend:**
-  - Line graphs for monthly sales and revenue from 2018 to 2022 show a general upward trajectory.
-  - Indicates consistent growth over the five-year period, suggesting overall positive performance.
-
-- **Key Observations:**
-  - Noticeable fluctuations within the upward trend.
-  - Possible reasons for fluctuations:
-    - Seasonal variations in consumer spending patterns
-    - Impact of specific market events or economic conditions on sales performance
-
-- **Further Analysis:**
-  - Analysing these fluctuations could provide valuable insights into market dynamics and consumer behavior.
-
-
-### b. Product Category Performance
-
-![image](https://github.com/user-attachments/assets/be791e3f-d565-4ad1-9c25-f00ac3ac53f4)
-
-- **Dominant Category:**
-  - Technology products dominate revenue generation, contributing a substantial 49% of total revenue.
-
-- **Secondary Category:**
-  - Office Supplies follow as the second-largest contributor at 33%.
-
-- **Notable Findings:**
-  - Unclassified categories account for 15% of revenue, warranting further investigation.
-  - Anomaly detected: Furniture category underperforms significantly, contributing only 3% to overall revenue.
-
-- **Insights:**
-  - The distribution highlights a heavy reliance on technology products, indicating a strong market position in this sector.
-  - Suggests a need for diversification to reduce dependency on a single category.
-
-
-### c. Top-Selling Products
-
-![image](https://github.com/user-attachments/assets/a7fdbf50-b250-48b2-9e02-b60ad5bf8978)
-
-- **Top Performers:**
-  - High-Speed Automatic Electric Letter Opener leads in sales, generating R1,466,247.
-  - Cisco Telepresence System EX90 follows closely with R1,256,436 in sales.
-
-- **Product Diversification:**
-  - The product range includes a mix of office equipment, high-end technology systems and furniture, suggesting a diverse product portfolio.
-
-- **Sales Distribution:**
-  - The leading products significantly outperform others, indicating a reliance on a few key products for revenue.
-  - Suggests a need to diversify product offerings or enhance promotion of lower-performing items.
-
-- **Market Trends:**
-  - High sales of office equipment like the letter opener and telepresence system suggest strong demand in the business and corporate sectors.
-
-- **Opportunities for Growth:**
-  - Potential to increase marketing efforts for mid and lower-tier products, especially those that complement top-selling items.
-
-
-### d. Sales by Province
-
-![image](https://github.com/user-attachments/assets/b568df9f-f192-4fb6-9465-658d4d50590d)
-
-- **Regional Focus:**
-  - KwaZulu-Natal, Gauteng and Eastern Cape are key markets.
-  - These provinces should be the focus of intensified marketing and sales strategies to capitalise on existing demand.
-
-- **Growth Opportunities:**
-  - Provinces with lower sales, such as Limpopo and Northern Cape, present opportunities for targeted marketing campaigns and promotional activities to boost sales.
-
-- **Market Expansion:**
-  - The variance in sales figures across provinces suggests potential for expansion in underperforming regions.
-  - Consider market research to understand local consumer behavior and needs.
-
-- **Resource Allocation:**
-  - Data can guide resource allocation, such as sales team deployment and inventory distribution, ensuring alignment with demand patterns.
-
-
-### e. Average Order Value (AOV)
-
-- **Current AOV:**
-  - The average order value stands at R4,467 over the observed period.
-  - Provides insight into the typical purchasing power and behavior of customer base.
-
-- **Trends to Investigate:**
-  - How this AOV compares to industry standards.
-  - Evolution of AOV over time.
-
-- **Potential Anomaly:**
-  - If this AOV significantly differs from industry benchmarks, it could indicate unique market positioning or specific customer segment targeting.
-
-
-### f. Ad-Hoc Queries
-
-The SQL snippets below answer some common business questions asked by stakeholders. 
+<br> **Ad-Hoc Queries** <br> Use of SQL queries to answer "on-the-go" questions by management. | 
 
 ```
-sql
--- Query 1: Top Products by Total Sales Amount
+
+sql -- Query 1: Top Products by Total Sales Amount
 
 WITH ProductSales AS (
     SELECT p.product_name, SUM(s.sales) AS total_sales
@@ -195,68 +71,9 @@ Output 3:
 
 ![image](https://github.com/user-attachments/assets/e3627282-c6dc-41b1-8b02-edd4fa10bbd3)
 
-## 4. Recommendations
-
-### Sales and Marketing Departments
-
-- **Intensify Regional Marketing:**
-  - Focus on key markets like KwaZulu-Natal, Gauteng and Eastern Cape where demand is high.
-  - Develop targeted marketing campaigns for underperforming regions such as Limpopo and Northern Cape to boost sales.
-
-- **Promote Product Diversification:**
-  - Enhance promotional efforts for lower-performing items, particularly those that complement top-selling products like office equipment and high-end technology systems.
-
-- **Seasonal and Event-based Campaigns:**
-  - Utilise data on seasonal sales fluctuations to time campaigns effectively, maximising revenue during peak periods.
-
-### Product and Procurement Departments
-
-- **Expand Product Range:**
-  - Consider introducing new products or categories to reduce reliance on technology products, which currently dominate revenue.
-
-- **Investigate Unclassified Categories:**
-  - Further analyse the 15% revenue from unclassified categories to identify potential new product lines or niches.
-
-- **Address Underperforming Categories:**
-  - Explore reasons behind the low performance of the furniture category and develop strategies to improve sales, such as product redesign or repositioning.
-
-### Finance and Strategy Departments
-
-- **Analyse Average Order Value (AOV):**
-  - Compare AOV of R4,467 with industry benchmarks to assess market positioning.
-  - Investigate trends in AOV over time to understand changes in customer purchasing behavior.
-
-- **Resource Allocation:**
-  - Use sales data to optimise resource allocation, ensuring that sales teams and inventory are aligned with demand patterns in different regions.
-
-### Customer Relations and Service Departments
-
-- **Customer Feedback on Product Range:**
-  - Gather customer insights on existing products and potential new offerings, particularly focusing on the office supplies and technology sectors.
-
-- **Enhance Customer Experience:**
-  - Improve after-sales support for high-value items like the Cisco Telepresence System EX90 to maintain customer satisfaction and loyalty.
-
-### Research and Development (R&D) Department
-
-- **Market Research:**
-  - Conduct market research in regions with lower sales to better understand local consumer preferences and tailor offerings accordingly.
-
-- **Trend Analysis:**
-  - Analyse sales data for emerging trends, such as increasing demand for specific product types, to inform product development and marketing strategies.
-
-These recommendations are designed to align each department's efforts with the overall strategic goals of Rainbow Retail, fostering growth and enhancing market competitiveness.
 
 
-## 5. Assumptions
-Data completeness issues, particularly with unclassified categories, may affect insights.
 
-## 6. Technical
-- **Excel:** Advanced features including Power Query and Power Pivot for ETL and EDA.
-- **SQL:** For sophisticated data querying and insight extraction.
-
-## 7. Conclusion
-Implementing these recommendations will enhance Rainbow Retail's sales performance, optimise product offerings and strengthen market presence for sustainable growth in the South African e-commerce market.
 
 Get the full report [here](https://github.com/randycampher/rainbow_retail_analysis/blob/main/Data%20Analysis%20Report.pdf)
 
