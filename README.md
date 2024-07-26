@@ -1,24 +1,28 @@
 # rainbow_retail_analysis
 Sales trend analysis for fictitious e-commerce company 
 
-## EXECUTIVE SUMMARY
+| **EXECUTIVE SUMMARY** |
+|-----------------------|
+| This project evaluates Rainbow Retail's sales performance from 2018 to 2022, highlighting key trends and providing actionable insights for future strategies. The analysis uses synthetic data, including customers, sales, products and calendar entities. |
 
-This project evaluates Rainbow Retail's sales performance from 2018 to 2022, highlighting key trends and providing actionable insights for future strategies. The analysis uses synthetic data, including customers, sales, products and calendar entities.
+| **Key Findings** |
+|------------------|
+| **Sales and Revenue Growth:** Consistent growth in sales and revenue with technology products driving 49% of total revenue. Office supplies contributed 33%, while furniture underperformed at 3%. |
+| **Product Performance:** Top products like the High-Speed Automatic Electric Letter Opener and Cisco Telepresence System EX90 dominate. This indicates a need for product diversification and enhanced promotion of underperforming items. |
+| **Regional Sales Analysis:** Key markets are KwaZulu-Natal, Gauteng and Eastern Cape, with growth potential in Limpopo and Northern Cape. Opportunities exist for market expansion and resource optimization. |
+| **Average Order Value (AOV):** The AOV is R4,467, suggesting opportunities for upselling and cross-selling. |
 
-### Key Findings
-- **Sales and Revenue Growth:** Consistent growth in sales and revenue with technology products driving 49% of total revenue. Office supplies contributed 33%, while furniture underperformed at 3%.
-- **Product Performance:** Top products like the High-Speed Automatic Electric Letter Opener and Cisco Telepresence System EX90 dominate. This indicates a need for product diversification and enhanced promotion of underperforming items.
-- **Regional Sales Analysis:** Key markets are KwaZulu-Natal, Gauteng and Eastern Cape, with growth potential in Limpopo and Northern Cape. Opportunities exist for market expansion and resource optimisation.
-- **Average Order Value (AOV):** The AOV is R4,467, suggesting opportunities for upselling and cross-selling.
+| **Recommendations** |
+|---------------------|
+| **Product Portfolio Optimisation:** Expand technology products, review the underperforming furniture line and explore unclassified categories for growth. |
+| **Sales and Marketing Strategies:** Focus on high-performing regions, target low-performing areas and develop strategies to increase AOV. |
+| **Seasonal Sales Optimisation:** Analyse seasonal sales trends and implement dynamic pricing strategies. |
+| **Data Analysis Enhancement:** Improve product categorisation, analyse customer behavior and refine data collection. |
 
-### Recommendations
-- **Product Portfolio Optimisation:** Expand technology products, review the underperforming furniture line and explore unclassified categories for growth.
-- **Sales and Marketing Strategies:** Focus on high-performing regions, target low-performing areas and develop strategies to increase AOV.
-- **Seasonal Sales Optimisation:** Analyse seasonal sales trends and implement dynamic pricing strategies.
-- **Data Analysis Enhancement:** Improve product categorisation, analyse customer behavior and refine data collection.
+| **Technical Approach** |
+|------------------------|
+| Utilised SQL and advanced Excel features such as Power Query and Power Pivot for data extraction, transformation, loading and analysis. |
 
-### Technical Approach
-Utilised SQL and advanced Excel features such as Power Query and Power Pivot for data extraction, transformation, loading and analysis.
 
 ## 1. INTRODUCTION
 Rainbow Retail is a fictitious South African e-commerce retailer of office supplies, furniture and technology products. This report aims to evaluate sales performance, identify trends and provide actionable insights.
