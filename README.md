@@ -9,7 +9,7 @@ Sales trend analysis for fictitious e-commerce company
 |------------------|
 | **Sales and Revenue Growth:** Consistent growth in sales and revenue with technology products driving 49% of total revenue. Office supplies contributed 33%, while furniture underperformed at 3%. |
 | **Product Performance:** Top products like the High-Speed Automatic Electric Letter Opener and Cisco Telepresence System EX90 dominate. This indicates a need for product diversification and enhanced promotion of underperforming items. |
-| **Regional Sales Analysis:** Key markets are KwaZulu-Natal, Gauteng and Eastern Cape, with growth potential in Limpopo and Northern Cape. Opportunities exist for market expansion and resource optimization. |
+| **Regional Sales Analysis:** Key markets are KwaZulu-Natal, Gauteng and Eastern Cape, with growth potential in Limpopo and Northern Cape. Opportunities exist for market expansion and resource optimisation. |
 | **Average Order Value (AOV):** The AOV is R4,467, suggesting opportunities for upselling and cross-selling. |
 
 | **Recommendations** |
@@ -17,7 +17,7 @@ Sales trend analysis for fictitious e-commerce company
 | **Product Portfolio Optimisation:** Expand technology products, review the underperforming furniture line and explore unclassified categories for growth. |
 | **Sales and Marketing Strategies:** Focus on high-performing regions, target low-performing areas and develop strategies to increase AOV. |
 | **Seasonal Sales Optimisation:** Analyse seasonal sales trends and implement dynamic pricing strategies. |
-| **Data Analysis Enhancement:** Improve product categorisation, analyse customer behavior and refine data collection. |
+| **Data Analysis Enhancement:** Improve product categorisation, analyse customer behaviour and refine data collection. |
 
 | **Technical Approach** |
 |------------------------|
@@ -258,7 +258,7 @@ Data completeness issues, particularly with unclassified categories, may affect 
 ## 7. CONCLUSION
 Implementing these recommendations will enhance Rainbow Retail's sales performance, optimise product offerings and strengthen market presence for sustainable growth in the South African e-commerce market.
 
-For detailed report click [here](https://github.com/randycampher/rainbow_retail_analysis/blob/main/Data%20Analysis%20Report.pdf)
+Get the full report [here](https://github.com/randycampher/rainbow_retail_analysis/blob/main/Data%20Analysis%20Report.pdf)
 
 
 
