@@ -5,21 +5,21 @@ Sales trend analysis for fictitious e-commerce company
 |-----------------------|
 | This project evaluates Rainbow Retail's sales performance from 2018 to 2022, highlighting key trends and providing actionable insights for future strategies. The analysis uses synthetic data, including customers, sales, products and calendar entities. |
 
-| **Key Findings** |
+| **a. Key Findings** |
 |------------------|
 | **Sales and Revenue Growth:** Consistent growth in sales and revenue with technology products driving 49% of total revenue. Office supplies contributed 33%, while furniture underperformed at 3%. |
 | **Product Performance:** Top products like the High-Speed Automatic Electric Letter Opener and Cisco Telepresence System EX90 dominate. This indicates a need for product diversification and enhanced promotion of underperforming items. |
 | **Regional Sales Analysis:** Key markets are KwaZulu-Natal, Gauteng and Eastern Cape, with growth potential in Limpopo and Northern Cape. Opportunities exist for market expansion and resource optimisation. |
 | **Average Order Value (AOV):** The AOV is R4,467, suggesting opportunities for upselling and cross-selling. |
 
-| **Recommendations** |
+| **b. Recommendations** |
 |---------------------|
 | **Product Portfolio Optimisation:** Expand technology products, review the underperforming furniture line and explore unclassified categories for growth. |
 | **Sales and Marketing Strategies:** Focus on high-performing regions, target low-performing areas and develop strategies to increase AOV. |
 | **Seasonal Sales Optimisation:** Analyse seasonal sales trends and implement dynamic pricing strategies. |
 | **Data Analysis Enhancement:** Improve product categorisation, analyse customer behaviour and refine data collection. |
 
-| **Technical Approach** |
+| **c. Technical Approach** |
 |------------------------|
 | Utilised SQL and advanced Excel features such as Power Query and Power Pivot for data extraction, transformation, loading and analysis. |
 
