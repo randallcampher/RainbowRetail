@@ -24,10 +24,10 @@ Sales trend analysis for fictitious e-commerce company
 | Utilised SQL and advanced Excel features such as Power Query and Power Pivot for data extraction, transformation, loading and analysis. |
 
 
-## 1. INTRODUCTION
+## 1. Introduction
 Rainbow Retail is a fictitious South African e-commerce retailer of office supplies, furniture and technology products. This report aims to evaluate sales performance, identify trends and provide actionable insights.
 
-## 2. DATA OVERVIEW
+## 2. Data Overview
 ### a. Data Sources
 Synthetic data includes four primary entities: Customers, Sales, Products and Calendar, enabling comprehensive tracking and analysis.
 
@@ -195,7 +195,7 @@ Output 3:
 
 ![image](https://github.com/user-attachments/assets/e3627282-c6dc-41b1-8b02-edd4fa10bbd3)
 
-## 4. RECOMMENDATIONS
+## 4. Recommendations
 
 ### Sales and Marketing Departments
 
@@ -248,14 +248,14 @@ Output 3:
 These recommendations are designed to align each department's efforts with the overall strategic goals of Rainbow Retail, fostering growth and enhancing market competitiveness.
 
 
-## 5. ASSUMPTIONS
+## 5. Assumptions
 Data completeness issues, particularly with unclassified categories, may affect insights.
 
-## 6. TECHNICAL
+## 6. Technical
 - **Excel:** Advanced features including Power Query and Power Pivot for ETL and EDA.
 - **SQL:** For sophisticated data querying and insight extraction.
 
-## 7. CONCLUSION
+## 7. Conclusion
 Implementing these recommendations will enhance Rainbow Retail's sales performance, optimise product offerings and strengthen market presence for sustainable growth in the South African e-commerce market.
 
 Get the full report [here](https://github.com/randycampher/rainbow_retail_analysis/blob/main/Data%20Analysis%20Report.pdf)
