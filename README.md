@@ -13,11 +13,10 @@
 | **Technical Approach**                 | The analysis utilised advanced Excel features such as Power Query and Power Pivot and SQL for data extraction, transformation and loading. This approach facilitated comprehensive data analysis and insightful reporting.                                                                                                                                                                                     |
 | **Conclusion**                         | By implementing these strategic recommendations, Rainbow Retail can enhance its sales performance, optimise product offerings and strengthen its market presence. Aligning data insights with strategic business goals will ensure sustained growth and competitive advantage in the South African e-commerce market.                                                                                                        |
 
-<br> **Ad-Hoc Queries** <br> Use of SQL queries to answer "on-the-go" questions by management. | 
+<br> **Ad-Hoc Queries** <br> Use of SQL queries to answer "on-the-go" questions by management.  
 
-```
-
-sql -- Query 1: Top Products by Total Sales Amount
+```sql
+-- Query 1: Top Products by Total Sales Amount
 
 WITH ProductSales AS (
     SELECT p.product_name, SUM(s.sales) AS total_sales
@@ -33,8 +32,7 @@ Output 1:
 
 ![image](https://github.com/user-attachments/assets/88ea9c33-93b3-4e65-b3b4-d5e7ff2d63b3)
 
-```
-sql
+```sql
 -- Query 2: Customer Ranking by Total Purchase Amount
 
 WITH CustomerSales AS (
@@ -51,8 +49,7 @@ Output 2:
 
 ![image](https://github.com/user-attachments/assets/d8ec3a72-f6de-46aa-bc73-f5a684bb7b0d)
 
-```
-sql
+```sql
 -- Query 3: Products with Sales Above Average
 
 SELECT p.product_id, p.product_name, SUM(s.sales) AS total_sales
@@ -72,10 +69,7 @@ Output 3:
 
 ![image](https://github.com/user-attachments/assets/e3627282-c6dc-41b1-8b02-edd4fa10bbd3)
 
-
-
-
-
+**Supporting Documents**<br>
 Get the full report [here](https://github.com/randycampher/rainbow_retail_analysis/blob/main/Data%20Analysis%20Report.pdf) <br>
 Access the presentation to stakeholders [here](https://github.com/randycampher/rainbow_retail_analysis/blob/main/Presentation.pdf) <br>
 
