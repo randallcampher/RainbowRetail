@@ -13,7 +13,7 @@
 | **Technical Approach**                 | The analysis utilised advanced Excel features such as Power Query and Power Pivot and SQL for data extraction, transformation and loading. This approach facilitated comprehensive data analysis and insightful reporting.                                                                                                                                                                                     |
 | **Conclusion**                         | By implementing these strategic recommendations, Rainbow Retail can enhance its sales performance, optimise product offerings and strengthen its market presence. Aligning data insights with strategic business goals will ensure sustained growth and competitive advantage in the South African e-commerce market.                                                                                                        |
 
-<br> **Ad-Hoc Queries** <br> Use of SQL queries to answer "on-the-go" questions by management.  
+<br> **Ad-Hoc Queries** <br> Common questions translated into technical SQL queries.  
 
 ```sql
 -- Query 1: Top Products by Total Sales Amount
