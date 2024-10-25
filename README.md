@@ -65,13 +65,13 @@ Rainbow Retail has shown a steady upward trend in monthly sales and revenue, a t
 - **Insight**: Sales are concentrated in Gauteng, KwaZulu-Natal, and Eastern Cape, with growth potential in underserved areas like Limpopo and Northern Cape.
 - **Goal**: **Geographical Expansion**. Focus marketing efforts on underperforming regions to achieve balanced sales distribution.
 
-### Average Order Value (AOV)
-- **Insight**: Higher AOVs were observed in technology and furniture, with regional variations reflecting economic conditions and product preferences.
-- **Goal**: **Customer Retention and Value Enhancement**. Implement targeted campaigns and loyalty programs to encourage higher spending and repeat purchases.
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4da623d7-4c5f-4cd4-b002-458bbf47a837" alt="report" width="80%" height="350">
  </p>
+
+### Average Order Value (AOV)
+- **Insight**: Higher AOVs were observed in technology and furniture, with regional variations reflecting economic conditions and product preferences.
+- **Goal**: **Customer Retention and Value Enhancement**. Implement targeted campaigns and loyalty programs to encourage higher spending and repeat purchases.
 
 ---
 
