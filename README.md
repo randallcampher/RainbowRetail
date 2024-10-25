@@ -8,7 +8,7 @@ Rainbow Retail, a South African e-commerce company specializing in office suppli
 
 ---
 
-## Project Goal
+## Project Goals
 The main objectives of this analysis are to:
 1. Evaluate Rainbow Retail’s sales performance from 2018 to 2022.
 2. Identify key trends and patterns in sales data.
