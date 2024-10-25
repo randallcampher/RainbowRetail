@@ -1,4 +1,4 @@
-# E-commerce Performance Analysis and Strategic Recommendations (2018-2022)
+# Performance Analysis and Strategic Recommendations (2018-2022)
 **Compiled by**: Randall Campher  
 
 ---
@@ -24,7 +24,9 @@ The analysis used synthetic data representing customers, sales, product categori
 
 Data cleaning and transformation were conducted using Excel (Power Query and Power Pivot) and SQL for enhanced analytical flexibility.
 
-<img src="https://github.com/user-attachments/assets/634bf08c-47e2-4a03-be23-57ca150e6129" alt="Description" width="80%" height='300'>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/634bf08c-47e2-4a03-be23-57ca150e6129" alt="report" width="80%" height="350">
+ </p>
 
 ---
 
@@ -39,19 +41,25 @@ Rainbow Retail has shown a steady upward trend in monthly sales and revenue, a t
 - **Insight**: Monthly sales and revenue exhibit a robust upward trend despite economic challenges.
 - **Goal**: **Market Expansion**. Explore new market segments and expand product lines to sustain growth.
 
-<img src="https://github.com/user-attachments/assets/78266099-bee4-4348-9c0a-9749b9e851fa" alt="Description" width="80%" height='300'>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/78266099-bee4-4348-9c0a-9749b9e851fa" alt="report" width="80%" height="350">
+ </p>
 
 ### Product Category Performance
 - **Insight**: Technology products contributed the most to total revenue (49%), with underperformance in furniture (3%) due to higher shipping costs and logistical challenges.
 - **Goal**: **Product Diversification**. Expand the technology product line and enhance promotions for furniture to reduce dependency on specific categories.
 
-<img src="https://github.com/user-attachments/assets/6516d168-8a76-44fc-85b7-9de24311a00b" alt="Description" width="80%" height='300'>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6516d168-8a76-44fc-85b7-9de24311a00b" alt="report" width="80%" height="350">
+ </p>
 
 ### Top-Selling Products
 - **Insight**: A few products, such as the High-Speed Automatic Electric Letter Opener, drive significant sales.
 - **Goal**: **Revenue Maximization**. Develop upselling and cross-selling strategies around these top products to increase Average Order Value (AOV).
 
-<img src="https://github.com/user-attachments/assets/5105c716-97ae-4b7c-889d-0117e50ffbad" alt="Description" width="80%" height='300'>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5105c716-97ae-4b7c-889d-0117e50ffbad" alt="report" width="80%" height="350">
+ </p>
 
 ### Sales by Province
 - **Insight**: Sales are concentrated in Gauteng, KwaZulu-Natal, and Eastern Cape, with growth potential in underserved areas like Limpopo and Northern Cape.
@@ -61,7 +69,9 @@ Rainbow Retail has shown a steady upward trend in monthly sales and revenue, a t
 - **Insight**: Higher AOVs were observed in technology and furniture, with regional variations reflecting economic conditions and product preferences.
 - **Goal**: **Customer Retention and Value Enhancement**. Implement targeted campaigns and loyalty programs to encourage higher spending and repeat purchases.
 
-<img src="https://github.com/user-attachments/assets/4da623d7-4c5f-4cd4-b002-458bbf47a837" alt="Description" width="80%" height='300'>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4da623d7-4c5f-4cd4-b002-458bbf47a837" alt="report" width="80%" height="350">
+ </p>
 
 ---
 
