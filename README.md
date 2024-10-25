@@ -1,4 +1,4 @@
-# Performance Analysis and Strategic Recommendations (2018-2022)
+# Performance Analysis (2018-2022)
 **Compiled by**: Randall Campher  
 
 ---
