@@ -39,7 +39,13 @@ Rainbow Retail is an eCommerce start-up selling mostly technology devices to var
 
 # 3. DATA OVERVIEW
 
-Each record in the table represents a single transaction or order placed by a customer. The columns contain details about the transaction, the customer, the product, and other relevant data points. Here's a breakdown of each field:
+Each record in the orders table represents a single transaction or order placed by a customer. The columns contain details about the transaction, the customer, the product and other relevant data points. Each record in the geo_lookup table with fields country_code and region represents a specific geographical region associated with a country.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7f81dac5-d09c-403f-8115-eb33c6e148fe" />
+</p>
+
+ Here's a breakdown of each field:
 - **user_id**: Unique identifier for each customer.
 - **order_id**: Unique identifier for each purchase transaction.
 - **purchase_ts**: Timestamp when the order was placed.
