@@ -1,114 +1,176 @@
-# Performance Analysis (2018-2022)
-**Compiled by**: Randall Campher  
+# 1. EXECUTIVE SUMMARY
+
+Rainbow Retail, a global eCommerce start-up specialising in technology products, has undergone significant revenue fluctuations from 2019 to 2022. While 2020 marked a period of rapid growth (+163% revenue increase), the subsequent years saw declines in both revenue (-46%) and order count (-40%), highlighting shifting consumer behaviour and potential operational inefficiencies. This analysis evaluates key performance trends, customer purchasing behaviour and marketing effectiveness to identify strategic opportunities for sustainable growth.
+
+## Key Findings:
+- **Revenue & Growth**: 2020's surge was driven by high order volume and AOV but declined post-pandemic due to reduced demand for premium products.
+- **Market Performance**: North America remains the strongest market, whereas Latin America underperforms across all metrics, suggesting potential for regional expansion.
+- **Product Trends**: High-value items like MacBook Air and ThinkPad laptops contributed to a higher AOV, but declines in these categories negatively impacted overall revenue.
+- **Marketing Effectiveness**: Direct marketing remains the most effective channel, while social media strategies require optimisation to drive better engagement and conversions.
+
+## Actionable Recommendations:
+- **Stabilise Growth**: Implement customer retention strategies like loyalty-based incentives and personalised promotions.
+- **Enhance Consumer Experience**: Optimise checkout processes and introduce multiple payment options to increase conversions.
+- **Strengthen Affiliate Partnerships**: Expand influencer marketing and exclusive discount codes to boost high-value sales.
+- **Expand into Latin America**: Adapt successful North American strategies for better market penetration.
+- **Optimise Social Media Marketing**: Run A/B tests on content and targeting to improve conversion rates.
+
+By addressing these areas, Rainbow Retail can achieve sustainable revenue growth, better market positioning and improved customer retention.
 
 ---
 
-## Project Background and Overview
-Rainbow Retail, a South African e-commerce company specializing in office supplies, furniture, and technology products, demonstrated consistent growth from 2018 to 2022. This analysis examines key performance metrics and provides recommendations to improve business strategies and drive future growth within the competitive e-commerce landscape.
+# 2. OVERVIEW
+
+Rainbow Retail is an eCommerce start-up selling mostly technology devices to various regions of the world. After four years of operations, the company has decided to have a closer look at the data collected since its inception in 2019. Of particular importance to the sales executives are questions related to revenue and growth. The objective of this analysis is to evaluate sales performance trends, customer purchasing behaviour and marketing effectiveness for Rainbow Retail. By examining key metrics—revenue, order count and average order value (AOV)—the goal is to identify areas for growth, optimisation and strategic decision-making.
+
+## To provide actionable insights, this analysis seeks to answer the following questions:
+- What are the overall trends in sales performance?
+- What are the key drivers of revenue and AOV?
+- How is customer behaviour changing, and how should the business respond?
+- Which regions and marketing channels are most effective?
+
+## This analysis covers four key areas:
+- **Sales Trends**: Year-over-year analysis of revenue, order count and AOV to track growth and decline.
+- **Customer Segments**: Breakdown of loyalty vs. non-loyalty customers and their contribution to revenue.
+- **Product Performance**: Identification of top-selling and underperforming products.
+- **Marketing & Regional Insights**: Evaluation of marketing channel effectiveness and regional sales performance.
 
 ---
 
-## Project Goals
-The main objectives of this analysis are to:
-1. Evaluate Rainbow Retail’s sales performance from 2018 to 2022.
-2. Identify key trends and patterns in sales data.
-3. Provide actionable recommendations for business optimization and growth.
+# 3. DATA OVERVIEW
+
+- **user_id**: Unique identifier for each customer.
+- **order_id**: Unique identifier for each purchase transaction.
+- **purchase_ts**: Timestamp when the order was placed.
+- **purchase_day**: Day of the week when the order was placed.
+- **purchase_month**: Month when the order was placed.
+- **purchase_year**: Year when the order was placed.
+- **ship_ts**: Date when the order was shipped.
+- **delivery_ts**: Date when the order was delivered.
+- **refund_ts**: Date when the order was refunded (if applicable).
+- **is_refund**: Indicates whether the order was refunded (1 = Yes, 0 = No).
+- **product_name**: Name of the purchased product.
+- **product_id**: Unique identifier for the purchased product.
+- **usd_price**: Price of the product in USD.
+- **local_price**: Price of the product in the local currency.
+- **currency**: Currency used for the purchase.
+- **purchase_platform**: Platform where the purchase was made (e.g., Website, Mobile App).
+- **marketing_channel**: Channel that drove the purchase (e.g., Direct, Social Media, Affiliate).
+- **account_creation_method**: How the customer created their account (e.g., Desktop, Mobile).
+- **country_code**: Two-letter country code representing the customer's location.
+- **loyalty_programme**: Indicates whether the customer is part of a loyalty programme (1 = Yes, 0 = No).
+- **created_on**: Date when the customer's account was created.
+- **created_on_check**: Verification flag for account creation consistency (TRUE/FALSE).
 
 ---
 
-## Data Structure Overview
-The analysis used synthetic data representing customers, sales, product categories, and transaction dates from January 2018 to December 2022. Key data points include:
-- **Product Data**: Specifications and revenue contributions by category.
-- **Sales Data**: Monthly sales and revenue trends.
-- **Geographic Data**: Sales distribution by province in South Africa.
+# 4. KEY INSIGHTS
 
-Data cleaning and transformation were conducted using Excel (Power Query and Power Pivot) and SQL for enhanced analytical flexibility.
+### a. Metrics:
+- **Sales**: The total monetary value of all completed transactions within a given period.
+- **Revenue**: The total income generated from sales before deducting expenses.
+- **Order Count**: The total number of individual purchase transactions made by customers.
+- **Average Order Value (AOV)**: The average amount spent per order, calculated as the average of revenue.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/634bf08c-47e2-4a03-be23-57ca150e6129" alt="report" width="80%" height="350">
- </p>
+### b. Revenue Trends:
+- 2020 saw a major increase in revenue (+163%) compared to 2019 but revenue declined (-46%) from 2021 to 2022.
+- In 2022, revenue is currently at R5M.
+- **Top revenue-generated products**:
+  - 27in 4K Gaming Monitor, Apple AirPods Headphones and MacBook Air Laptop accounted for R24M (85%) of total revenue.
+- **Worst-performing product by revenue**:
+  - Bose Soundsport Headphones had the lowest revenue.
+  - Apple iPhone had the second-lowest revenue.
+- **Regional breakdown**:
+  - North America led with R14.5M in revenue.
+  - Latin America had the lowest revenue.
+- **Marketing channel impact**:
+  - Direct marketing generated R23M (83%) of total revenue.
 
----
+### c. Order Count Trends:
+- Order volume surged by 101% in 2020 but dropped (-40%) from 2021 to 2022.
+- In 2022, total orders stand at 21K.
+- **Top-selling product**:
+  - Apple AirPods Headphones had the highest order count (48K).
+- **Worst-performing product by order count**:
+  - Bose Soundsport Headphones.
+- **Regional order volume**:
+  - North America led with 55K orders.
+  - Latin America had the lowest order count.
+- **Customer segment performance**:
+  - Non-loyalty customers placed more orders than loyalty customers.
+- **Marketing channel impact**:
+  - Direct marketing drove 84K orders.
 
-## Executive Summary
-Rainbow Retail has shown a steady upward trend in monthly sales and revenue, a testament to its adaptability in an evolving e-commerce market. Technology products dominate revenue at 49%, while the furniture category underperforms at only 3%. Sales are highly concentrated in major provinces, with underserved regions showing growth potential. This report provides strategic recommendations to maintain market momentum, expand product offerings, and optimize regional performance.
-
----
-
-## Insights Deep Dive
-
-### Sales and Revenue Growth Trend
-- **Insight**: Monthly sales and revenue exhibit a robust upward trend despite economic challenges.
-- **Goal**: **Market Expansion**. Explore new market segments and expand product lines to sustain growth.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/78266099-bee4-4348-9c0a-9749b9e851fa" alt="report" width="80%" height="350">
- </p>
-
-### Product Category Performance
-- **Insight**: Technology products contributed the most to total revenue (49%), with underperformance in furniture (3%) due to higher shipping costs and logistical challenges.
-- **Goal**: **Product Diversification**. Expand the technology product line and enhance promotions for furniture to reduce dependency on specific categories.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/6516d168-8a76-44fc-85b7-9de24311a00b" alt="report" width="80%" height="350">
- </p>
-
-### Top-Selling Products
-- **Insight**: A few products, such as the High-Speed Automatic Electric Letter Opener, drive significant sales.
-- **Goal**: **Revenue Maximization**. Develop upselling and cross-selling strategies around these top products to increase Average Order Value (AOV).
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5105c716-97ae-4b7c-889d-0117e50ffbad" alt="report" width="80%" height="350">
- </p>
-
-### Sales by Province
-- **Insight**: Sales are concentrated in Gauteng, KwaZulu-Natal, and Eastern Cape, with growth potential in underserved areas like Limpopo and Northern Cape.
-- **Goal**: **Geographical Expansion**. Focus marketing efforts on underperforming regions to achieve balanced sales distribution.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/4da623d7-4c5f-4cd4-b002-458bbf47a837" alt="report" width="80%" height="350">
- </p>
-
-### Average Order Value (AOV)
-- **Insight**: Higher AOVs were observed in technology and furniture, with regional variations reflecting economic conditions and product preferences.
-- **Goal**: **Customer Retention and Value Enhancement**. Implement targeted campaigns and loyalty programs to encourage higher spending and repeat purchases.
+### d. Average Order Value (AOV) Trends:
+- AOV increased by 31% in 2020 but declined by 10% in 2022, settling at R230.
+- **Highest AOV products**:
+  - MacBook Air Laptop (R1.5K per order).
+  - ThinkPad Laptop (R1.1K per order).
+  - Apple iPhone had a below-average order count but a relatively high AOV (R741).
+- **Regional AOV trends**:
+  - Asia Pacific had the highest AOV (R279 per order).
+- **Marketing channels & AOV**:
+  - Affiliates generated the highest-value purchases, with an AOV of R303.
 
 ---
 
-## Recommendations
+# 5. DETAILED ANALYSIS
 
-### Product Portfolio Optimization
-1. **Expand Technology Offerings**: Leverage strong demand for technology products to maintain market leadership.
-2. **Furniture Category Development**: Develop strategic partnerships or promotions to enhance the furniture category.
-3. **Identify Emerging Trends**: Investigate ‘unclassified’ product categories to uncover potential new market segments.
+### a. Revenue Trends: Growth and Decline
+- **2020 Revenue Surge (+163%)** primarily driven by:
+  - A 101% increase in order count, showing more customers were making purchases.
+  - A 31% rise in AOV, indicating customers were spending more per order.
+  - Strong sales of high-ticket products such as the MacBook Air Laptop and 27in 4K Gaming Monitor.
+  - Direct marketing efforts, which contributed R23M (83%) of total revenue.
+- **2021-2022 Revenue Decline (-46%)**:
+  - A 40% decline in order count, suggesting fewer customers were purchasing.
+  - A 10% drop in AOV, meaning customers spent less per transaction.
+  - A possible shift in consumer spending habits post-pandemic, impacting demand for premium electronics.
+  - Poor performance of certain product categories, like the Bose Soundsport Headphones and Apple iPhone.
+  - Weak revenue generation in Latin America.
 
-### Sales and Marketing Strategy Enhancement
-1. **Intensify Marketing in Key Regions**: Increase marketing efforts in high-performing regions.
-2. **Target Underperforming Regions**: Develop campaigns for areas with growth potential, focusing on digital adoption and internet penetration.
-3. **AOV-Based Campaigns**: Use insights from AOV analysis to create product bundles and targeted offers to boost spending.
+### b. Order Count: Consumer Demand and Shopping Behaviour
+- **2020 Order Boom (+101%)**:
+  - A major increase in consumer demand and eCommerce growth likely contributed to a high volume of orders.
+  - Direct marketing campaigns played a significant role, driving 84K orders.
+  - Apple AirPods Headphones were the most purchased item, with 48K orders.
+- **2021-2022 Order Decline (-40%)**:
+  - A reduction in total orders suggests a decline in demand or a shift in consumer preferences.
+  - Non-loyalty customers placed more orders than loyalty customers, indicating that acquiring new customers played a key role in driving sales.
 
-### Data Analysis and Reporting Enhancement
-1. **Enhanced Data Categorization**: Improve data categorization to allow for deeper insights into customer behavior.
-2. **Predictive Modeling**: Incorporate economic indicators into predictive models for market trend anticipation.
-3. **Real-time Dashboards**: Develop dashboards to monitor key performance indicators (KPIs) for faster decision-making.
+### c. AOV: Spending Behaviour and High-Value Purchases
+- **2020 AOV Growth (31%)**:
+  - The increase in high-ticket purchases such as MacBook Air (R1.5K AOV) and ThinkPad (R1.1K AOV) laptops drove the rise in AOV.
+- **2021-2022 AOV Decline (-10%)**:
+  - A drop in premium product sales or a shift to lower-cost items contributed to the decline.
+
+### d. Regional Performance: Market Strengths and Weaknesses
+- **North America (Strongest Region)**:
+  - Led in revenue (R14.5M), order count (55K), and customer base (45K).
+- **Asia Pacific (High AOV, Moderate Order Count)**:
+  - Highest AOV (R279 per order), indicating that customers in this region tend to make larger purchases.
+- **Latin America (Weakest Performance)**:
+  - Performed the worst across all metrics.
+
+### e. Marketing Channel Performance: What Is Driving Sales
+- **Direct Marketing**:
+  - Generated R23M (83%) of total revenue and 84K orders.
+- **Affiliate Marketing**:
+  - AOV was the highest at R303 per order, but order volume was lower than direct marketing.
+- **Social Media & Unknown Channels**:
+  - Both performed poorly across all metrics, signalling a need for better targeting and engagement.
 
 ---
 
-## Technical Details
-The technical analysis involved:
-- **Excel (Power Query and Power Pivot)**: For data extraction, transformation, and advanced exploratory data analysis (EDA) via interactive pivot tables and charts.
-- **SQL**: For complex querying and analysis of sales and customer data.
-- **MySQL**: For database management and advanced data manipulation.
+# 6. ACTIONABLE RECOMMENDATIONS
 
-Key SQL queries addressed frequent business questions, such as top-selling products, customer purchase rankings, and identifying products with sales above the average.
-
----
-
-## Caveats and Assumptions
-- **Data Completeness**: A significant portion of revenue (15%) came from ‘unclassified’ categories, which may reflect product categorization inconsistencies or data entry issues.
-- **Data Context**: Insights are based on synthetic data and may not account for all real-world variables, such as customer demographics or broader market factors.
-
----
-
-## Conclusion
-Rainbow Retail has shown resilience and growth within South Africa’s challenging economic landscape. Implementing these recommendations will enable the company to optimize product offerings, enhance regional performance, and maintain its growth trajectory. To sustain this momentum, the company should continue monitoring market trends, consumer behavior, and economic shifts.
+- **Stabilise Long-Term Growth**:
+  - Implement loyalty-based incentives such as discounts, early access or personalised offers.
+- **Shifting Consumer Behaviour**:
+  - Optimise the checkout process to reduce friction and increase conversion rates.
+- **Strengthen Affiliate Marketing Relationships**:
+  - Develop exclusive discount codes for influencers to increase reach.
+- **Expansion Opportunity**:
+  - Identify key success factors in North America and adapt them to Latin America.
+- **Ad Optimisation**:
+  - A/B test social media content for better conversion rates.
