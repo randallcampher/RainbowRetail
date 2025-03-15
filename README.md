@@ -132,34 +132,52 @@ The company's main database structure, as seen below, consists of four tables: o
   - The increase in high-ticket purchases such as MacBook Air (R1.5K AOV) and ThinkPad (R1.1K AOV) laptops drove the rise in AOV.
 - **2021-2022 AOV Decline (-10%)**:
   - A drop in premium product sales or a shift to lower-cost items contributed to the decline.
+  - Affiliates attracted high-value purchases with an AOV of R303, suggesting that partnerships played a role in driving larger transactions
+  - Asia Pacific led in AOV (R279 per order), indicating that regional pricing strategies or consumer preferences in this market favoured larger purchases
+- **AOV by Product**:
+  - MacBook Air and ThinkPad Laptops produced the highest AOV (R1.5K and R1.1K, respectively)
+  - Apple iPhone had one of the lowest Order Counts but a relatively strong AOV (R741), suggesting that while fewer customers purchased iPhones, those who did spent more
+
 
 ### d. Regional Performance: Market Strengths and Weaknesses
 - **North America (Strongest Region)**:
   - Led in revenue (R14.5M), order count (55K), and customer base (45K).
+  - Suggests strong brand presence, effective marketing and high consumer trust in the region.
 - **Asia Pacific (High AOV, Moderate Order Count)**:
   - Highest AOV (R279 per order), indicating that customers in this region tend to make larger purchases.
+  - Order Count was not as strong as North America which may suggest a need for better marketing penetration
 - **Latin America (Weakest Performance)**:
   - Performed the worst across all metrics.
+  - Possible reasons include lower market penetration, weaker brand recognition or economic factors affecting consumer spending.
 
 ### e. Marketing Channel Performance: What Is Driving Sales
-- **Direct Marketing**:
+- **Direct Marketing (Top Performer)**:
   - Generated R23M (83%) of total revenue and 84K orders.
-- **Affiliate Marketing**:
-  - AOV was the highest at R303 per order, but order volume was lower than direct marketing.
-- **Social Media & Unknown Channels**:
-  - Both performed poorly across all metrics, signalling a need for better targeting and engagement.
+  - This suggests targeted campaigns and direct outreach strategies were highly effective in converting customers.
+- **Affiliate Marketing (High AOV but Lower Volume)**:
+  - AOV was the highest at R303 per order but order volume was lower than Direct marketing.
+  - However, Order volume was not as high as direct marketing, meaning there could be an opportunity to expand affiliate partnerships to drive more order.
+- **Social Media & Unknown Channels (Poor Performers)**:
+  - •	Both performed poorly across all metrics, signalling that these channels ay need improved targeting, better engagement strategies or increased budget allocation to be more effective.
+
+### f. Key Takeaways
+- The business experienced a strong surge in 2020 but faced a decline in 2021-2021, indicating the need to stabilise long-term growth
+- Revenue and Order Count declines suggest shifting consumer behaviour, requiring improved marketing efforts to retain and attract customers
+- High-value product sales (MacBook Air and ThinkPad) and premium purchases through affiliates drove AOV but a decline in these areas contributed to lower overall Revenue
+- North America is the strongest market, while Latin America is the weakest, indicating an opportunity for targeted expansion
+- Direct marketing is the most effective channel, while social media strategies need improvement.
 
 ---
 
 # 6. ACTIONABLE RECOMMENDATIONS
 
 - **Stabilise Long-Term Growth**:
-  - Implement loyalty-based incentives such as discounts, early access or personalised offers.
+  - Strategy team to implement loyalty-based incentives such as discounts, early access or personalised offers to encourage repeat purchases.
 - **Shifting Consumer Behaviour**:
-  - Optimise the checkout process to reduce friction and increase conversion rates.
+  - CX team to optimise the checkout process to reduce friction and increase conversion rates (e.g. multiple payment options, guest checkout).
 - **Strengthen Affiliate Marketing Relationships**:
-  - Develop exclusive discount codes for influencers to increase reach.
+  - Marketing team to develop exclusive discount codes for influencers to increase reach.
 - **Expansion Opportunity**:
-  - Identify key success factors in North America and adapt them to Latin America.
+  - Sales team to identify key success factors in North America (e.g. top-selling products, marketing channels) and adapt them to Latin America.
 - **Ad Optimisation**:
-  - A/B test social media content for better conversion rates.
+  - •	Data analytics team to A/B test social media content for better conversion rates.
