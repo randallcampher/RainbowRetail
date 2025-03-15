@@ -39,6 +39,7 @@ Rainbow Retail is an eCommerce start-up selling mostly technology devices to var
 
 # 3. DATA OVERVIEW
 
+Each record in the table represents a single transaction or order placed by a customer. The columns contain details about the transaction, the customer, the product, and other relevant data points. Here's a breakdown of each field:
 - **user_id**: Unique identifier for each customer.
 - **order_id**: Unique identifier for each purchase transaction.
 - **purchase_ts**: Timestamp when the order was placed.
