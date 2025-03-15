@@ -39,10 +39,15 @@ Rainbow Retail is an eCommerce start-up selling mostly technology devices to var
 
 # 3. DATA OVERVIEW
 
-Each record in the orders table represents a single transaction or order placed by a customer. The columns contain details about the transaction, the customer, the product and other relevant data points. Each record in the geo_lookup table with fields country_code and region represents a specific geographical region associated with a country.
+The company's main database structure, as seen below, consists of four tables: orders, customers, geo_lookup and order_status. A description of each table is as follows:
+
+- **orders** - stores information related to individual customer purchases. It currently contains 108127 records.
+- **customers** - holds customer details. 
+- **geo_lookup** - maps country codes to specific regions, providing geographical context for customer orders. 
+- **order_status** - tracks the status of each order. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7f81dac5-d09c-403f-8115-eb33c6e148fe" />
+  <img src="https://github.com/user-attachments/assets/84174577-dafc-4850-820e-cdc93ff0e25f" />
 </p>
 
 
