@@ -45,29 +45,6 @@ Each record in the orders table represents a single transaction or order placed 
   <img src="https://github.com/user-attachments/assets/7f81dac5-d09c-403f-8115-eb33c6e148fe" />
 </p>
 
- Here's a breakdown of each field:
-- **user_id**: Unique identifier for each customer.
-- **order_id**: Unique identifier for each purchase transaction.
-- **purchase_ts**: Timestamp when the order was placed.
-- **purchase_day**: Day of the week when the order was placed.
-- **purchase_month**: Month when the order was placed.
-- **purchase_year**: Year when the order was placed.
-- **ship_ts**: Date when the order was shipped.
-- **delivery_ts**: Date when the order was delivered.
-- **refund_ts**: Date when the order was refunded (if applicable).
-- **is_refund**: Indicates whether the order was refunded (1 = Yes, 0 = No).
-- **product_name**: Name of the purchased product.
-- **product_id**: Unique identifier for the purchased product.
-- **usd_price**: Price of the product in USD.
-- **local_price**: Price of the product in the local currency.
-- **currency**: Currency used for the purchase.
-- **purchase_platform**: Platform where the purchase was made (e.g., Website, Mobile App).
-- **marketing_channel**: Channel that drove the purchase (e.g., Direct, Social Media, Affiliate).
-- **account_creation_method**: How the customer created their account (e.g., Desktop, Mobile).
-- **country_code**: Two-letter country code representing the customer's location.
-- **loyalty_programme**: Indicates whether the customer is part of a loyalty programme (1 = Yes, 0 = No).
-- **created_on**: Date when the customer's account was created.
-- **created_on_check**: Verification flag for account creation consistency (TRUE/FALSE).
 
 ---
 
